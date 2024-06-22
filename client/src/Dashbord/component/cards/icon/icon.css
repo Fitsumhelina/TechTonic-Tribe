@@ -1,0 +1,21 @@
+.icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(73, 72, 70, 0.483);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        transform: scale(.8);
+        background-color: rgba(239, 238, 238, 0.818);
+        border: none;
+    }
+    img{
+        height: 80%;
+        width: 80%;
+        object-fit: cover;
+    }
+}

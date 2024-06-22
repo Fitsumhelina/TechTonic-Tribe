@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073955"
+  },
+  "topic": "HTML",
+  "level": "Beginner",
+  "title": "HTML Beginner Tutorial",
+  "videoLink": "https://youtu.be/qz0aGYrrlhU?si=31Ep8eXTCw9_-o4w",
+  "description": "A beginner-friendly tutorial for learning HTML.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073956"
+  },
+  "topic": "HTML",
+  "level": "Intermediate",
+  "title": "HTML Intermediate Tutorial",
+  "videoLink": "https://youtu.be/kUMe1FH4CHE?si=H5Xm2k4TIQ55G2LD",
+  "description": "An intermediate tutorial covering advanced HTML topics.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073957"
+  },
+  "topic": "HTML",
+  "level": "Advanced",
+  "title": "HTML Advanced Tutorial",
+  "videoLink": "https://youtu.be/FQdaUv95mR8?si=oTvxKt-I3PTO5i0u",
+  "description": "An advanced tutorial diving deep into HTML techniques.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f07395d"
+  },
+  "topic": "css",
+  "level": "Advanced",
+  "title": "CSS Advanced Tutorial",
+  "videoLink": "https://youtu.be/OXGznpKZ_sA?si=kM1akv17X8yGsfeQ",
+  "description": "An advanced tutorial diving deep into CSS techniques.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f07395c"
+  },
+  "topic": "css",
+  "level": "Intermediate",
+  "title": "CSS Intermediate Tutorial",
+  "videoLink": "https://youtu.be/wRNinF7YQqQ?si=meBmkNI4yr-ITEfe",
+  "description": "An intermediate tutorial covering advanced CSS topics.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f07395b"
+  },
+  "topic": "css",
+  "level": "Beginner",
+  "title": "CSS Beginner Tutorial",
+  "videoLink": "https://youtu.be/1PnVor36_40?si=esYGP8AA1wmUUG2o",
+  "description": "A beginner-friendly tutorial for learning CSS.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073961"
+  },
+  "topic": "react",
+  "level": "Beginner",
+  "title": "REACT Beginner Tutorial",
+  "videoLink": "https://youtu.be/SqcY0GlETPk?si=NiXwnz0Q_zLiprId",
+  "description": "A beginner-friendly tutorial for learning REACT.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073962"
+  },
+  "topic": "react",
+  "level": "Intermediate",
+  "title": "REACT Intermediate Tutorial",
+  "videoLink": "https://youtu.be/CgkZ7MvWUAA?si=Um34xhT9-qlbdas0",
+  "description": "An intermediate tutorial covering advanced REACT topics.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073963"
+  },
+  "topic": "react",
+  "level": "Advanced",
+  "title": "REACT Advanced Tutorial",
+  "videoLink": "https://youtu.be/bMknfKXIFA8?si=4moeoxyP9P_pUixA",
+  "description": "An advanced tutorial diving deep into REACT techniques.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073969"
+  },
+  "topic": "mongo",
+  "level": "Advanced",
+  "title": "MongoDB Advanced Tutorial",
+  "videoLink": "https://youtu.be/mDgKjb5eWPk?si=O3Lcqc8KESfjmyL9",
+  "description": "An advanced tutorial diving deep into MongoDB techniques.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073967"
+  },
+  "topic": "mongo",
+  "level": "Beginner",
+  "title": "MongoDB Beginner Tutorial",
+  "videoLink": "https://youtu.be/c2M-rlkkT5o?si=zWclKde1B-7UUL_Z",
+  "description": "A beginner-friendly tutorial for learning MongoDB.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f073968"
+  },
+  "topic": "mongo",
+  "level": "Intermediate",
+  "title": "MongoDB Intermediate Tutorial",
+  "videoLink": "https://youtu.be/t3UjWbh7mqI?si=LfrQFligNxs_x4z2",
+  "description": "An intermediate tutorial covering advanced MongoDB topics.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f07396d"
+  },
+  "topic": "nodejs",
+  "level": "Beginner",
+  "title": "Node.js Beginner Tutorial",
+  "videoLink": "https://youtu.be/TlB_eWDSMt4?si=w7nI7ApWNLoWa068",
+  "description": "A beginner-friendly tutorial for learning nodejs.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f07396f"
+  },
+  "topic": "nodejs",
+  "level": "Advanced",
+  "title": "Node.js Advanced Tutorial",
+  "videoLink": "https://youtu.be/f2EqECiTBL8?si=rLR9cL58S_pYv2SK",
+  "description": "An advanced tutorial diving deep into nodejs techniques.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665f4a212a8478fe8f07396e"
+  },
+  "topic": "nodejs",
+  "level": "Intermediate",
+  "title": "Node.js Intermediate Tutorial",
+  "videoLink": "https://youtu.be/Oe421EPjeBE?si=83g51ufY-u0UD5Pf",
+  "description": "An intermediate tutorial covering advanced nodejs topics.",
+  "__v": 0
+}]

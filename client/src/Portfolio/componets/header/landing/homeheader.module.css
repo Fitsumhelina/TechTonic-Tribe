@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center; 
+    padding: 0.2rem 2rem;
+    color: white;
+    background-color: transparent;
+   
+}
+
+.logo { 
+    display: flex;
+    gap: 20px;
+    margin-left: 1%;
+    font-size: 0.7rem; 
+    font-weight: bold; 
+}
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.link{
+    background-color: transparent; 
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+.blog{
+    background-color:#4c7ef3 ;
+    padding: 10px 20px ;
+    border-radius: 5px;
+
+}
+.blog:hover{
+    background-color:#3a63c2;
+
+}
+.link:hover{
+    --animation-color: #00c3d4;
+    background-color:#4c7ef3;
+    filter: drop-shadow(0 0 30px var(--animation-color))
+}
+.nav { 
+    display: flex; 
+    gap: 20px;
+    cursor: pointer; 
+}
+.nav a { 
+    color:white;
+    text-decoration: none;
+} 
+.nav li{
+    font-family:"poppins",sans-serif;
+    list-style: none;
+}
+.chat{
+
+    background-color: #04c254; 
+    padding: 0.8rem 1.3rem;
+    border-radius: 5px; 
+}
+.chat:hover{
+    --animation-color:#06be52;
+     border-radius: 5px; 
+    filter: drop-shadow(0 0 30px var(--animation-color))
+}
+
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.active {
+    color: red; /* Change color as desired */
+  }

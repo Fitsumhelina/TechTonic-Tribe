@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column; 
+}
+.questionPageContainer {
+  width: 90%;
+  margin-left: 280px;
+}
+
+.question0 {
+  display: flex;
+
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.imageNavigation {
+  display: flex;
+  z-index: 1;
+  width: 70vw;
+  height: 100px;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin: 100px  0 0 130px;
+  background-color: rgb(149, 184, 215);
+}
+.navigationImage {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+
+
+.well {
+  top: 85px;
+  z-index: 1;
+  position: sticky;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.htmlcard{
+  background-color: #faebd7;
+  background: linear-gradient(
+    -45deg,
+    #22b6fb,
+    #0a7fbe,
+    #0e015700,
+    #2293fd58,
+    #6a2eea65
+  );
+  background-size: 400% 400%;
+  border-radius: 15px;
+  padding:50px 0 ;
+
+  
+}
+.csscard{
+  background-color: rgb(220, 136, 26);
+  background: linear-gradient(
+    -45deg,
+    #d1e181,
+    #be790a,
+    #0e015700,
+    #82b9ec58,
+    #ea8c2e65
+  );
+  background-size: 400% 400%;
+  padding:50px 0 ;
+  
+}
+.reactcard{
+  background-color: rgb(78, 220, 26);
+  background: linear-gradient(
+    -45deg,
+    #96e181,
+    #be790a,
+    #0ba295ab,
+    #82b9ec58,
+    #24e14a65
+  );
+  background-size: 400% 400%;
+  padding:50px 0 ;
+  
+}
+
+.databasecard{
+  background-color: rgb(26, 142, 220);
+  background: linear-gradient(
+    -45deg,
+    #96e181,
+    #be790a,
+    #0ba295ab,
+    #82b9ec58,
+    #e124c165
+  );
+  background-size: 400% 400%;
+  padding:50px 0 ;
+
+}
+
+
+
+
+
+  
+@media (max-width: 1050px) {
+  .question0 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Sidebar{
+    z-index: 1;
+  }
+  .questionPageContainer {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .imageNavigation {
+    width: 90%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 958px) {
+  .question0 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .well {
+    margin-left: 35px;
+    text-align: center; 
+  }
+  .imageNavigation {
+    width: 80%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+  .question0 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imageNavigation {
+  margin-left: 5px;
+    width: 100%;
+    justify-content:center;
+    gap: 40px;
+    background-color: transparent;
+  }
+  .navigationImage {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+}

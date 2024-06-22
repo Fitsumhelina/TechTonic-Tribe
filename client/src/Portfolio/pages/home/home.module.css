@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+  background-image: url('./../../../assets/home-background4.jpg');
+  filter: brightness(100%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  color: white;
+  min-height: 95vh;
+  padding: 20px;
+  z-index: 1;
+  margin-top: 0px;
+
+} 
+
+
+ .main {
+  text-align: start;
+   padding-top: 10rem;
+   padding-left: 5%; 
+
+  }
+
+.styles {
+  height: 20%;
+  width: 2px;
+  background-color: #ffffff35;
+}
+  .hometext{
+    max-width: 80vw;
+  }
+.dynamicText{
+  font-size: 3rem;
+}
+.chat{
+  font-family:"poppins",Arial, Helvetica, sans-serif ;
+  margin-top: 50px;
+  p{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5px;
+ 
+  }
+  a{
+    text-decoration: none;
+  }
+  .signup {
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 1rem; 
+    cursor: pointer;
+    display: flex;
+  }
+}
+
+
+body{
+  margin: 0;
+  padding: 0%;
+}
+
+
+.container p {
+  text-align: start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 70%;
+  font-size: 1.4rem;
+}
+
+
+.next{
+  margin-top: 80px;
+  padding: 1rem 2rem; 
+  border-radius: 5px;
+  font-size: 1rem; 
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+}

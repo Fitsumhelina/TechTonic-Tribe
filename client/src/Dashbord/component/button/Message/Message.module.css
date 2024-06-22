@@ -1,0 +1,32 @@
+.fileContainer {
+    background-color: #efeff6;
+    padding: 0.5rem;
+    display: flex;
+    width:100px;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0px;
+  }
+  
+  .fileImage {
+    width: 90px;
+  
+    height: 90px;
+    margin-left: 15px;
+  }
+  
+  .fileContent {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 50px;
+  }
+  
+  .fileTitle {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  
+  .fileDescription {
+    font-size: 0.75rem;
+    color: #58526d;
+  }

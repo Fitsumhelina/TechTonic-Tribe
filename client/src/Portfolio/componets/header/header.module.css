@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  color: white;
+  background: linear-gradient(-45deg, #360a46, #05354e, #0e0157, #01315e, #210165);
+  background-size: 400% 400%;
+  animation: gradientBG 20s ease infinite;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 10px;
+}
+.link {
+  font-family:"poppins",Arial, Helvetica, sans-serif ;
+
+  color: white;
+  background-color: transparent;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+.link:hover {
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  background-color: #4e80f5;
+  filter: drop-shadow(0 0 30px #00c3d4);
+}
+.blog {
+  color: white;
+  background-color: #4e80f5;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.blog:hover {
+  background-color: #2d5ecf;
+}
+.login {
+  color: white;
+  background-color: #4e80f5;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.login:hover {
+  background-color: #2853b8;
+}
+.avatarContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.logoutButton {
+  color: white;
+  background-color: #4e80f5;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px; /* Adjust this value as needed to position below the avatar */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none; /* Initially hidden */
+}
+
+.avatarContainer:hover .logoutButton {
+  display: block;
+}
+
+.menuToggle {
+  background: none;
+  border: none;
+  color: #c1d7f9;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.7rem;
+    height: auto;
+  }
+  .logoutButton{
+    top: 10px;
+    left: 20%;
+  }
+  .logo img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-right: 0;
+    display: none;
+    position: relative;
+  }
+
+  .navOpen {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 200px;
+    background-color: #142870;
+    width: 100vw;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .link{
+    font-family:"poppins",Arial, Helvetica, sans-serif ;
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+  }
+
+  .blog{
+    font-family:"poppins",Arial, Helvetica, sans-serif ;
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+
+  }
+  .login {
+    font-family:"poppins",Arial, Helvetica, sans-serif ;
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    
+  }
+
+  .avatar {
+    display: block;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+}
+

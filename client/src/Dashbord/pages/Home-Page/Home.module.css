@@ -1,0 +1,166 @@
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content:center;
+  }
+  
+
+  .Sidebar {
+    left: 0;
+    flex: auto;
+    margin-top: 23px;
+  }
+  
+
+  .rigth {
+    z-index: 0;
+    flex: auto;
+    margin: 0 0 0 170px;
+  }
+  
+
+  .bottomcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  
+
+  .searchbar {
+    display: flex;
+    margin-left: 1200px;
+    right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .icons {
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: brightness(0.8);
+    width: 70%;
+    max-width: 1000px; 
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .icons a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 18px; 
+    max-width: 200px; 
+    margin: 10px;
+  }
+  
+  .icon {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .header {
+    text-align: center;
+    margin:  10px 12  0px; ;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group1, .group2 {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .searchbar {
+      justify-content: center;
+      padding: 0 10px;
+    
+    }
+ 
+    .icons {
+      margin-left: 170px;
+      height: auto;
+      padding: 10px;
+      z-index: -1;
+    }
+    
+    .icons a {
+      flex-basis: 25%; 
+      max-width: none;
+    }
+    .group1, .group2 {
+      gap: 20px;
+      margin-left: 65px;
+    }
+  
+    .Sidebar {
+      flex: 1 1 150px;
+    }
+  
+    .rigth {
+      flex: 3 1 500px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .searchbar {
+      margin-left: 90px;
+    }
+    
+    
+    .icons a {
+      flex-basis: 50%; 
+    }
+    .Sidebar {
+      flex: 0 0 100%;
+      color: #ecf0f1;
+      z-index: 1;
+      max-width: none;
+    }
+  
+    .rigth {
+      flex: 1;
+      margin: 0;
+      padding: 20px;
+      max-width: none;
+    }
+  
+    .icons {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .group1, .group2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .group1 > div, .group2 > div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

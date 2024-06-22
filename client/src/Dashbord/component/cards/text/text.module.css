@@ -1,0 +1,23 @@
+
+.textCard {
+    position: relative;
+    width: 100%;
+    max-height: 600px; 
+    padding: 20px;
+    background-color: #f5f5f5; 
+    color: #333; 
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .textCard h1 {
+    margin-top: 0;
+  }
+  
+  .textCard p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
+  

@@ -1,0 +1,18 @@
+.join {
+  color: #0e0d0d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.joincards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 50px;
+}

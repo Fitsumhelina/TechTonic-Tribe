@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.card01 {
+  z-index: -1;
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+/* Main Flexbox configuration for larger screens */
+.div01 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* Styles for the image container */
+.pic01 {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 300px;
+}
+
+.pic01 .image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pic01 .image:hover {
+  transform: rotate(8deg) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for the text container */
+.text01 {
+  flex: 1;
+  padding: 20px;
+  margin: 0;
+  min-height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+}
+
+.text02 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text03 {
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.list1 {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.list1 li {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.list1 li:hover {
+  cursor: default;
+  transform: scale(1.1);
+}
+
+.first {
+  padding-left: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon1 {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.icon1 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+.l-text01 {
+  flex: 1;
+}
+
+.l-text02 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.l-text03 {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Mobile and tablet styles */
+@media (max-width: 768px) {
+  .div01 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic01 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .text01 {
+    padding: 20px;
+    margin: 20px 0;
+    min-height: auto;
+  }
+
+  .text02 {
+    font-size: 1.8rem;
+  }
+
+  .text03 {
+    font-size: 1.2rem;
+  }
+
+  .list1 {
+    padding: 0;
+  }
+
+  .list1 li {
+    padding: 10px 0;
+  }
+
+  .icon1 {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .div01 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic01 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .text01 {
+    padding: 20px;
+    margin: 20px 0;
+    min-height: auto;
+  }
+
+  .text02 {
+    font-size: 2rem;
+  }
+
+  .text03 {
+    font-size: 1.3rem;
+  }
+
+  .list1 {
+    padding: 0;
+  }
+
+  .list1 li {
+    padding: 10px 0;
+  }
+
+  .icon1 {
+    margin-top: 0;
+  }
+}

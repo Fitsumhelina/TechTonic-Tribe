@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  font-family: "poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.SideBar {
+  margin-top: 60px;
+  margin-bottom: 160px;
+  background: linear-gradient(
+    -45deg,
+    #360a46,
+    #05354e,
+    #0e0157,
+    #01315e,
+    #210165
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 12s ease infinite;
+  animation: gradientBG 10s ease infinite;
+  color: #aeaeae;
+  width: 250px;
+  height: 100vh;
+  transition: width 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  padding: 5px;
+}
+.link:hover {
+  background-color: rgba(204, 198, 198, 0.403);
+  /* z-index: 1; */
+  width: 215px;
+  margin-left: 20px;
+  height: 50px;
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+
+.link span {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
+.icon {
+  width: 35px;
+  filter: invert(60%) grayscale(90%);
+  margin-left: 15px;
+}
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 55px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.list {
+  margin-top: 25px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.collapsed {
+  width: 80px;
+  background-color: transparent;
+}
+.collapsed .link:hover {
+  background-color: rgba(204, 198, 198, 0.403);
+  width: auto;
+  margin-left: 0;
+  height: auto;
+  transform: none;
+}
+.toggleButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.toggleIcon {
+  width: 30px;
+  height: 30px;
+  filter: invert(60%) grayscale(90%);
+  transition: transform 0.3s ease; 
+}
+.collapsed .toggleIcon {
+  transform: rotate(-180deg);
+}
+
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .SideBar {
+    width: 175px;
+  }
+
+  .collapsed {
+    width: 95px;
+  }
+}
+@media (max-width: 768px) {
+  .link:hover {
+    background-color: transparent;
+  }
+}
