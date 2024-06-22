@@ -1,4 +1,3 @@
-Here's your updated README with images for the landing page, blog, dashboard, authentication, and chat, along with the license section separated and your link added.
 
 
 # Tectonic Tribe - Tech Company Portfolio and Learning Dashboard
