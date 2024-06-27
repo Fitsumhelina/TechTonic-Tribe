@@ -37,7 +37,7 @@ function Homeheader() {
             <Link to="contact"offset={50} duration={500} className={styles.link}>Contact</Link>
           </li>
           <li>
-            <RouterLink to="/blog"  offset={50} duration={500} className={styles.blog}>Blog</RouterLink>
+            <RouterLink to="/blog" offset={50} duration={500}><button  className={styles.blog} > Blog </button></RouterLink>
           </li>
           <li
             onMouseEnter={() => setIsHovered(true)}

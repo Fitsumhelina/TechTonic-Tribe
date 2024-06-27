@@ -2,7 +2,7 @@ import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import StyleS from './button.module.css';
 
-function Signup({ Name , link,onClick}) {
+function Signup({ Name , link}) {
     return (
         <>
             <RouterLink to ={link}>

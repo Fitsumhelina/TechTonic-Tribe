@@ -61,8 +61,8 @@ function Dashbordheader() {
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/blog" className={styles.blog} onClick={() => setIsMenuOpen(false)}>
-              Blog
+            <RouterLink to="/blog"  onClick={() => setIsMenuOpen(false)}>
+              <button className={styles.blog} >Blog</button>
             </RouterLink>
           </li>
           {currentUser ? (
@@ -81,8 +81,8 @@ function Dashbordheader() {
             </li>
           ) : (
             <li>
-              <RouterLink to="/login" className={styles.login} onClick={() => setIsMenuOpen(false)}>
-                Login
+              <RouterLink to="/login"  onClick={() => setIsMenuOpen(false)}>
+               <button className={styles.blog}> Login </button> 
               </RouterLink>
             </li>
           )}

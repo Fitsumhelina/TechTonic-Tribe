@@ -5,7 +5,7 @@ import styles from './dropdownMenu.module.css';
 const DropdownMenu = ({ handleItemClicked }) => {
   return (
     <div className={styles.dropdownContainer}>
-      <RouterLink to="/dashboard" className={styles.dashboardLink}>Dashboard</RouterLink>
+      <RouterLink to="/dashboard"><button className={styles.dashbord} >Dashboard</button></RouterLink>
       <ul className={styles.dropdown}>
         <li><RouterLink to="/dashboard">Home</RouterLink></li>
         <li ><div onClick={() => handleItemClicked("/dashboard/css") }>CSS</div></li>
